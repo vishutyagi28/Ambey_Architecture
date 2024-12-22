@@ -1,0 +1,38 @@
+.contact-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.contact-container {
+    width: 40%;
+    height: 50%;
+    background-color:black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 60px rgb(231, 105, 21);
+    color:white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-container div{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.contact-container div p{
+    font-size: 15px;
+}
+.contact-container h1 {
+    color:rgb(231, 105, 21);
+    font-weight:bold;
+    font-size: 35px;
+}
